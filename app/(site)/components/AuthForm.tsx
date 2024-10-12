@@ -94,14 +94,10 @@ export default function AuthForm() {
           {/* Socials Login */}
           <div className="mt-6 grid grid-cols-2 gap-2">
             <div>
-              <AuthSocialButton icon={BsGithub} fullWidth onClick={() => socialAction('github')}>
-                Github
-              </AuthSocialButton> 
+              <AuthSocialButton icon={BsGithub} onClick={() => socialAction('github')}/>
             </div>
             <div>
-              <AuthSocialButton icon={BsGoogle} fullWidth onClick={() => socialAction('google')}>
-                Google
-              </AuthSocialButton>
+              <AuthSocialButton icon={BsGoogle} onClick={() => socialAction('google')}/>
             </div>
           </div>
 
